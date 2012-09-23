@@ -1,0 +1,179 @@
+﻿body, html {
+	color: #000;
+	background: #e7e7de;
+	font-family: Arial, sans-serif;
+	margin: 10px;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 a,
+h3 a {
+	text-decoration: none;
+}
+
+label {
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+th {
+	text-align: left;
+}
+
+/* color of zebra stripe table rows */
+.alt {
+	background: #eee; 
+}
+
+.beta {
+	font-size: 40%;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.pagination a {
+	text-decoration: none;
+}
+
+/* style paragraphs used to display the resume */
+.resume {
+	font-family: "Courier New", monospace;
+	font-size: 90%;
+}
+
+.right {
+	text-align: right;
+}
+
+.sort_asc:after {
+	content: "▲";
+}
+
+.sort_desc:after {
+	content: "▼";
+}
+
+/* table to display students */
+.table_students {
+	width: 100%;
+}
+
+.table_students tr th {
+	background: #444;
+	color: #fff;
+	text-align: center;
+}
+
+.table_students tr th a {
+	color: #fff;
+}
+
+.table_students tr td {
+	text-align: center;
+}
+
+#footer {
+	color: #888;
+	margin: 10px auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#header {
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+
+#menu {
+	background: #e7e7de;
+	float: left;
+	margin-bottom: 15px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+#menu ul {
+	clear: left;
+	float: left;
+	left: 50%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+}
+
+#menu ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+}
+
+#menu ul li a {
+	background: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 2px 5px #888;
+	color: #000;
+	display: block;
+	line-height: 1.3em;
+	margin: 0 0 0 5px;
+	padding: 3px 10px;
+	text-decoration: none;
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-moz-box-shadow: 0 2px 5px #888;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-box-shadow: 0 2px 5px #888;
+}
+
+#menu ul li a:hover {
+	background: #369;
+	color: #fff;
+}
+
+#menu ul li a.active,
+#menu ul li a.active:hover {
+	color: #fff;
+	background: #000;
+	font-weight: bold;
+}
+
+#main {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #888;
+	margin: 36px 0 0 0;
+	padding: 0 20px 20px 20px;
+	width: 760px;
+	-moz-border-radius: 5px;
+	-moz-box-shadow: 2px 2px 5px #888;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 5px #888;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 800px;
+}
